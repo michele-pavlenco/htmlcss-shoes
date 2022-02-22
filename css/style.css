@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav{
+position:fixed ;
+top: 0;
+right: 0;
+padding-top: 20px;
+padding-right: 10px; 
+
+ 
+}
+nav li{
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+   text-align: center;
+   padding-top: 10px;
+   background-color: white;
+   text-decoration: none;
+
+}
+.red-container{
+    background-color: red;
+    height: 100vh;
+}
+.green-container{
+    background-color: green;
+    height: 100vh;
+}
+#3{
+    background-color: yellow;
+    height: 100vh;
+}
