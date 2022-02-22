@@ -3,13 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One',sans-serif;
+    
 }
+html {
+    scroll-behavior: smooth;
+  }
 nav{
 position:fixed ;
 top: 0;
 right: 0;
 padding-top: 20px;
 padding-right: 10px;
+z-index: 20;
+
 
 
 }
@@ -31,7 +37,8 @@ nav li a{
 .red-container{
     background-color: red;
     height: 100vh;
-     text-align: center; 
+    
+     
     position: relative;
 }
 .green-container{
@@ -44,42 +51,46 @@ nav li a{
     background-color: yellow;
     height: 100vh;
     position: relative;
+    
+    
 
 }
 .yellow-text{
     color: yellow;
-    font-size:xx-large;
+    font-size:xx-large; 
+    text-align: center; 
+    
+
 }
 .green-text{
     color: green;
     font-size:xx-large;
+    text-align: center;
 }
 
 
 .red-img{
         width: 400px;
         height: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50% , -50%);
-        text-align: center;
+        
+        
 }
 .green-img{
     width: 400px;
     height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    text-align: center;
+    
 }
 .yellow-img{
     width: 400px;
     height: auto;
+   
+
+}
+figure{
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    text-align: center;
+    
 }
