@@ -26,12 +26,20 @@ nav li{
 .red-container{
     background-color: red;
     height: 100vh;
+    position: relative;
 }
 .green-container{
     background-color: green;
     height: 100vh;
+    position: relative;
 }
 #3{
     background-color: yellow;
     height: 100vh;
+}
+img{
+    width: 400px;
+    height: auto;
+    pos
+
 }
